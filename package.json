@@ -1,0 +1,14 @@
+{
+  "name": "inm320-a3-css-precompiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Joy Tolong",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
