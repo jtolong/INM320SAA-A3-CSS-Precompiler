@@ -1,4 +1,12 @@
 /* This is the original example. You can take all css styles from here. */
+/* assignment requirements:
+min 5 scss variables
+min 2 scss mixins 
+min 5 scss nestings */
+
+/* $primary-font-family: 'Josefin Sans', sans-serif;
+$secondary-font-family: Quando; */
+
 
 body {
     font-family: Quando;
@@ -30,7 +38,7 @@ h5,
 h6 {
     margin-top: 25px;
     margin-bottom: 20px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;;
     font-weight: 400;
     line-height: 1.3em;
     word-wrap: break-word;
@@ -64,7 +72,7 @@ h6 {
 
 /* header and main nav */
 header {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;;
 }
 header nav ul {
     display: none;
@@ -167,7 +175,7 @@ footer {
         line-height: 24px;
     }
     header nav a {
-        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Josefin Sans', sans-serif;;
         color: #324360;
         letter-spacing: 1px;
         text-transform: uppercase;

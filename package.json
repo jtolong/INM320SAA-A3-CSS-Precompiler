@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-     "start": "lite-server --baseDir=\"public\""
+    "dev":"lite-server --baseDir=\"public\"",
+    "watch": "sass --watch src/scss:public/assets/css",
+    "start": "lite-server --baseDir=\"public\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Joy Tolong",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "concurrently": "^9.1.2",
+    "lite-server": "^2.6.1",
+    "sass": "^1.84.0"
   }
 }
